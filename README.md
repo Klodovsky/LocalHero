@@ -31,4 +31,5 @@ php artisan serve
 TO-DO
 
 => Validator Controller logic
+
 => Vue select component
