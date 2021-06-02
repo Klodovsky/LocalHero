@@ -21,3 +21,11 @@ Route::get('/', function () {
 
 Route::get('/get-validator', [ValidatorController::class, 'getValidatorData']);
 Route::get('/get-business-type', [BusinessTypeController::class, 'getBusinessTypeData']);
+Route::post('/get-person', [ValidatorController::class, 'getPersonData']);
+/*
+// getting specific business types
+*/
+//Route::post('/get_specific_business_types', 'BusinessTypeController@getSpecificBusinessTypes');
+Route::post('/get_specific_business_types',[BusinessTypeController::class, 'getSpecificBusinessTypes']);
+Route::post('/get_specific_sales_person',[ValidatorController::class, 'getSpecificSalesPerson']);
+// Route::post('/get_specific_sales_person', 'ValidatorController@getSpecificSalesPerson');
