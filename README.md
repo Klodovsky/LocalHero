@@ -17,6 +17,8 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 
+# set up db in .env
+
 # run migration
 php artisan migrate
 
