@@ -11,7 +11,7 @@
                             <tr>
                                 <th scope="col">ID</th>
                                 <th scope="col">Sales person</th>
-                                <th scope="col">Post code</th>
+                                <th scope="col">Supported Areas Codes</th>
                             </tr>
                             </thead>
                             <tbody v-if="loadData">

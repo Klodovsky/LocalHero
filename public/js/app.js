@@ -39704,7 +39704,7 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("th", { attrs: { scope: "col" } }, [_vm._v("Sales person")]),
         _vm._v(" "),
-        _c("th", { attrs: { scope: "col" } }, [_vm._v("Post code")])
+        _c("th", { attrs: { scope: "col" } }, [_vm._v("Supported Areas Codes")])
       ])
     ])
   }
