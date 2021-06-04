@@ -35,7 +35,7 @@ Testing for Artem new unsupported area code : ( different than 123*,05478)
 
 Testing for Artem new supported area code : ( belongs to 123*,05478)
 
-![image](https://user-images.githubusercontent.com/55706752/120868651-c4a65980-c594-11eb-803d-24c0a04ad633.png)
+![image](https://user-images.githubusercontent.com/55706752/120868999-a2f9a200-c595-11eb-8473-3ee0456a135e.png)
 
 # Business Type Multiselection
 
@@ -53,3 +53,4 @@ Hotel & Gym modals selected
 
 
 
+PS: I did not focus on db migrations, if you want to test this locally please use the .sql file imported in the project
