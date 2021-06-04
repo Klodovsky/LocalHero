@@ -26,12 +26,12 @@ php artisan migrate
 php artisan serve
 ```
 
+# PostalCodes Validation
+![image](https://user-images.githubusercontent.com/55706752/120857314-8f881000-c570-11eb-8f5b-45a73c6a620f.png)
+![image](https://user-images.githubusercontent.com/55706752/120857697-31a7f800-c571-11eb-967b-563ce7108fc0.png)
 
-![2](https://user-images.githubusercontent.com/55706752/120185345-95dd5b80-c201-11eb-9788-d253f8322a76.PNG)
-![1](https://user-images.githubusercontent.com/55706752/120185349-970e8880-c201-11eb-9cd5-8c1ec76588da.PNG)
+# Business Type Multiselection
 
-TO-DO
+![image](https://user-images.githubusercontent.com/55706752/120857267-7e3f0380-c570-11eb-8669-154691faa9bd.png)
+![image](https://user-images.githubusercontent.com/55706752/120857525-eb529900-c570-11eb-97c7-cbb763122104.png)
 
-=> Validator Controller logic
-
-=> Vue select component
