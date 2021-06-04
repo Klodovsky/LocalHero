@@ -28,4 +28,5 @@ Route::post('/get-person', [ValidatorController::class, 'getPersonData']);
 //Route::post('/get_specific_business_types', 'BusinessTypeController@getSpecificBusinessTypes');
 Route::post('/get_specific_business_types',[BusinessTypeController::class, 'getSpecificBusinessTypes']);
 Route::post('/get_specific_sales_person',[ValidatorController::class, 'getSpecificSalesPerson']);
+Route::post('/check_conflict',[ValidatorController::class, 'checkConflict']);
 // Route::post('/get_specific_sales_person', 'ValidatorController@getSpecificSalesPerson');

@@ -5,9 +5,9 @@
                 <div class="card">
                     <div class="card-header">Business Type</div>
 
-                    <div>
-                        <label class="typo__label">Tagging</label>
-                        <multiselect v-model="value" tag-placeholder="Add this as new tag" placeholder="Search or add a tag" label="branch" track-by="id" :options="options" :multiple="true" :taggable="true" @tag="addTag" @input="onSelect"></multiselect>
+                    <div class="col-md-12">
+                        <label class=""></label>
+                        <multiselect v-model="value" tag-placeholder="Add this as new tag" placeholder="Search Business Types" label="branch" track-by="id" :options="options" :multiple="true" :taggable="true" @tag="addTag" @input="onSelect"></multiselect>
                         <!-- <pre class="language-json"><code>{{ value  }}</code></pre> -->
                     </div>
                     <div class="card-body">
@@ -106,7 +106,7 @@ import Multiselect from 'vue-multiselect'
                 loadData: false,
                 //value: [],
                 value: [
-                     { id: 1, branch: 'Hotel' }
+                    //  { id: 1, branch: 'Hotel' }
                 ],
                 options: [
                     
@@ -170,7 +170,7 @@ import Multiselect from 'vue-multiselect'
             },
            
             addTag (newTag) {
-                alert(newTag);
+               
             const tag = {
                 id: newTag,
                 //code: newTag.substring(0, 2) + Math.floor((Math.random() * 10000000))

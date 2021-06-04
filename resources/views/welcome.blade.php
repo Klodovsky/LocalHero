@@ -13,6 +13,6 @@
     </div>
     <script src="{{asset('js/app.js')}}"></script>
     <script src="https://unpkg.com/vue-multiselect@2.1.0"></script>
-<link rel="stylesheet" href="https://unpkg.com/vue-multiselect@2.1.0/dist/vue-multiselect.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/vue-multiselect@2.1.0/dist/vue-multiselect.min.css">
     </body>
 </html>
