@@ -21,6 +21,8 @@ class ValidatorController extends Controller
         $sales_person = SalesPerson::find($request->sales_person);
         $stored_codes = explode(",", $sales_person->post_code);
         $user_codes = Array();
+        $no_conflict = Array();
+        $conflict_array = Array();
 
         $conflict = false;
 
@@ -37,6 +39,7 @@ class ValidatorController extends Controller
                 if($single_stored_code == $single_user_code)
                 {
                     $conflict = true;
+                    array_push($no_conflict, $single_user_code);
                     break 2;
                 }
                 else
@@ -45,11 +48,17 @@ class ValidatorController extends Controller
                         $single_store_code_from = explode("*", $single_stored_code);
                         $single_store_code_to =  $single_store_code_from[0].'99';
 
-                        if(($single_user_code >= $single_store_code_from[0]) AND ($single_user_code <= $single_store_code_to))
+                        if(($single_user_code >= $single_store_code_from[0].'00') AND ($single_user_code <= $single_store_code_to))
                         {
                             $conflict = true;
+                            array_push($no_conflict, $single_user_code);
                             break 2;
                         }
+                        else
+                        {
+                            array_push($conflict_array, $single_user_code);
+                        }
+
                     }
                 }
             }
@@ -58,20 +67,24 @@ class ValidatorController extends Controller
         if($conflict)
         {
             return response()->json([
-                'status'    => 400,
-                'message'   => 'Conflict occurs',
-                'stored_codes'   => $stored_codes,
-                'input_codes'   => $user_codes
+                // 'status'    => 400,
+                // 'message'   => 'No conflict',
+                'conflicted_values' => $conflict_array,
+                'no_conflicted_values' => $no_conflict,
+                // 'stored_codes'   => $stored_codes,
+                // 'input_codes'   => $user_codes
             ]);
         }
         else
         {
             // no conflict found
             return response()->json([
-                'status'    => 200,
-                'message'   => 'No Conflict',
-                'stored_codes'   => $stored_codes,
-                'input_codes'   => $user_codes
+                // 'status'    => 200,
+                // 'message'   => 'Conflict occurs',
+                'conflicted_values' => $conflict_array,
+                'no_conflicted_values' => $no_conflict,
+                // 'stored_codes'   => $stored_codes,
+                // 'input_codes'   => $user_codes
             ]);
         }
         
