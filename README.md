@@ -27,11 +27,29 @@ php artisan serve
 ```
 
 # PostalCodes Validation
-![image](https://user-images.githubusercontent.com/55706752/120857314-8f881000-c570-11eb-8f5b-45a73c6a620f.png)
-![image](https://user-images.githubusercontent.com/55706752/120857697-31a7f800-c571-11eb-967b-563ce7108fc0.png)
+![image](https://user-images.githubusercontent.com/55706752/120868455-66797680-c594-11eb-801f-50ca2d0542e6.png)
+
+Testing for Artem new unsupported area code : ( different than 123*,05478)
+
+![image](https://user-images.githubusercontent.com/55706752/120868548-93c62480-c594-11eb-87f2-d242d1e569da.png)
+
+Testing for Artem new supported area code : ( belongs to 123*,05478)
+
+![image](https://user-images.githubusercontent.com/55706752/120868651-c4a65980-c594-11eb-803d-24c0a04ad633.png)
 
 # Business Type Multiselection
 
-![image](https://user-images.githubusercontent.com/55706752/120857267-7e3f0380-c570-11eb-8669-154691faa9bd.png)
-![image](https://user-images.githubusercontent.com/55706752/120857525-eb529900-c570-11eb-97c7-cbb763122104.png)
+Nothing selected : 
+
+![image](https://user-images.githubusercontent.com/55706752/120868841-354d7600-c595-11eb-98c0-d25de7c8fecc.png)
+
+Hotel Model selected :
+
+![image](https://user-images.githubusercontent.com/55706752/120868860-472f1900-c595-11eb-9f75-6b847e0e04d5.png)
+
+Hotel & Gym modals selected
+
+![image](https://user-images.githubusercontent.com/55706752/120868894-5ada7f80-c595-11eb-976f-34f10d731828.png)
+
+
 
