@@ -17,10 +17,7 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 
-# set up db in .env
-
-# run migration
-php artisan migrate
+# set up db in .env and import the .sql file
 
 # launch dev server
 php artisan serve
@@ -41,17 +38,16 @@ Testing for Artem new supported area code : ( belongs to 123*,05478)
 
 Nothing selected : 
 
-![image](https://user-images.githubusercontent.com/55706752/120869150-0edc0a80-c596-11eb-96b9-3838a24f066e.png)
+![image](https://user-images.githubusercontent.com/55706752/120869306-b00e9500-c585-11eb-86bc-a8142d02ee71.png)
 
 
 Hotel Model selected :
-
-![image](https://user-images.githubusercontent.com/55706752/120869174-20251700-c596-11eb-83fd-fe371c1be710.png)
+![image](https://user-images.githubusercontent.com/55706752/120869378-e1876080-c585-11eb-9400-09ed0bd66420.png)
 
 Hotel & Gym modals selected
 
-![image](https://user-images.githubusercontent.com/55706752/120869193-2dda9c80-c596-11eb-9038-89fe2c12ab9a.png)
+![image](https://user-images.githubusercontent.com/55706752/120869361-d2081780-c585-11eb-86d0-eb734198a126.png)
 
 
 
-PS: I did not focus on db migrations, if you want to test this locally please use the .sql file imported in the project
+PS: I did not focus on db migrations, if you wish to test this locally please use the .sql file imported in the project
