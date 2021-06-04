@@ -41,15 +41,16 @@ Testing for Artem new supported area code : ( belongs to 123*,05478)
 
 Nothing selected : 
 
-![image](https://user-images.githubusercontent.com/55706752/120868841-354d7600-c595-11eb-98c0-d25de7c8fecc.png)
+![image](https://user-images.githubusercontent.com/55706752/120869150-0edc0a80-c596-11eb-96b9-3838a24f066e.png)
+
 
 Hotel Model selected :
 
-![image](https://user-images.githubusercontent.com/55706752/120868860-472f1900-c595-11eb-9f75-6b847e0e04d5.png)
+![image](https://user-images.githubusercontent.com/55706752/120869174-20251700-c596-11eb-83fd-fe371c1be710.png)
 
 Hotel & Gym modals selected
 
-![image](https://user-images.githubusercontent.com/55706752/120868894-5ada7f80-c595-11eb-976f-34f10d731828.png)
+![image](https://user-images.githubusercontent.com/55706752/120869193-2dda9c80-c596-11eb-9038-89fe2c12ab9a.png)
 
 
 
